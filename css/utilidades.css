@@ -1,0 +1,54 @@
+:root {
+  --cor-p1: #8055e1;
+  --cor-p2: #34235c;
+  --cor-0: #ffffff;
+  --cor-1: #5c5c5c;
+  --cor-2: #333333;
+}
+
+.cor-p1 {
+  color: var(--cor-p1);
+}
+
+.cor-p2 {
+  color: var(--cor-p2);
+}
+
+.cor-0 {
+  color: var(--cor-0);
+}
+
+.cor-1 {
+  color: var(--cor-1);
+}
+
+.cor-2 {
+  color: var(--cor-2);
+}
+
+.font-xl {
+  font: 500 2.5rem/1 "Rubik", sans-serif;
+}
+
+.font-l {
+  font: 500 1.125rem/1 "Rubik", sans-serif;
+}
+
+.font-m {
+  font: 500 1rem/1 "Rubik", sans-serif;
+}
+
+.font-s {
+  font: 400 0.875rem/1.48 "Rubik", sans-serif;
+}
+
+@media (max-width: 400px) {
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
